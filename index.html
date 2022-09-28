@@ -13,23 +13,24 @@
 			padding: 0;
 			display: flex;
 			justify-content: center;
+			flex-direction: column;
 			align-items: center;
+		}
+		.banner {
+			margin: 20px 0;
 		}
 
 	</style>
 </head>
 <body>
-<div id="dog" style="max-width: 250px;"></div>
-
-
-<script>
-	lottie.loadAnimation({
-    container: document.getElementById('dog'), // the dom element that will contain the animation
-    renderer: 'svg',
-    loop: true,
-    autoplay: true,
-    path: 'animated_banners_2.json' // the path to the animation json
-  });
-</script>
+<div class="banner" id="dog" style="max-width: 250px; height: 400px;"></div>
+<div class="banner" id="320x100" ></div>
+<div class="banner" id="300x250" ></div>
+<div class="banner" id="300x600" ></div>
+<div class="banner" id="336x280" ></div>
+<div class="banner" id="480x800" ></div>
+<div class="banner" id="728x90" ></div>
+<div class="banner" id="970x250" ></div>
+<script src="index.js"></script>
 </body>
 </html>
