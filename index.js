@@ -31,7 +31,7 @@ lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'animated_banners_json/336x280.json' // the path to the animation json
+    path: 'animated_banners_json/336X280.json' // the path to the animation json
   });
 lottie.loadAnimation({
     container: document.getElementById('480x800'), // the dom element that will contain the animation
@@ -52,7 +52,7 @@ lottie.loadAnimation({
     renderer: 'svg',
     loop: true,
     autoplay: true,
-    path: 'animated_banners_json/970x250.json' // the path to the animation json
+    path: 'animated_banners_json/970х250.json' // the path to the animation json
   });
 
 
